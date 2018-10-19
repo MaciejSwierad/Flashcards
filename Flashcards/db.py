@@ -3,20 +3,22 @@ import sqlite3
 with sqlite3.connect("FLASHCARDSAPP.db") as connection:
 
     cursor = connection.cursor()
+    cursor.execute("DROP TABLE users")
+    cursor.execute("DROP TABLE flashcards")
 
     cursor.execute("""CREATE TABLE IF NOT EXISTS users
       (id INTEGER PRIMARY KEY,
-      username TEXT UNIQUE NOT NULL,
-      password TEXT NOT NULL)
+      username TEXT UNIQUE,
+      password TEXT)
       """)
 
     cursor.execute("""CREATE TABLE IF NOT EXISTS flashcards(
       id INTEGER PRIMARY KEY,
-      content TEXT NOT NULL,
-      answer TEXT NOT NULL,
-      category TEXT NOT NULL,
-      level INTEGER NOT NULL,
-      user_id INT NOT NULL)
+      content TEXT,
+      answer TEXT,
+      category TEXT,
+      level INTEGER,
+      user_id INT)
       """)
 
     cursor.execute('INSERT INTO users VALUES(1, "admin", "admin")')
