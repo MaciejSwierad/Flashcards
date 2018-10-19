@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2144da78-55ac-4839-85d8-85031a883e49" name="Default" comment="" />
+    <list default="true" id="2144da78-55ac-4839-85d8-85031a883e49" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Flashcards/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards/app.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Flashcards_project$app.coverage" NAME="app Coverage Results" MODIFIED="1539954828695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flashcards" />
+    <SUITE FILE_PATH="coverage/Flashcards_project$app.coverage" NAME="app Coverage Results" MODIFIED="1539955980716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flashcards" />
     <SUITE FILE_PATH="coverage/Flashcards$Flashcards.coverage" NAME="Flashcards Coverage Results" MODIFIED="1538669405598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Flashcards_project$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1538747164492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flashcards" />
   </component>
@@ -42,13 +44,15 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flashcards/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="449">
+              <caret line="84" column="44" selection-start-line="84" selection-start-column="44" selection-end-line="84" selection-end-column="44" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskr/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
@@ -117,11 +121,11 @@
         <option value="$PROJECT_DIR$/Flashcards/schema.sql" />
         <option value="$PROJECT_DIR$/Flashcards/__init__.py" />
         <option value="$PROJECT_DIR$/Flashcards/templates/main.html" />
-        <option value="$PROJECT_DIR$/Flashcards/app.py" />
         <option value="$PROJECT_DIR$/Flashcards/static/css/styles.css" />
         <option value="$PROJECT_DIR$/Flashcards/templates/template.html" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/Flashcards/db.py" />
+        <option value="$PROJECT_DIR$/Flashcards/app.py" />
       </list>
     </option>
   </component>
@@ -134,9 +138,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1163" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="173" />
+    <option name="y" value="60" />
     <option name="width" value="1097" />
     <option name="height" value="1056" />
   </component>
@@ -162,20 +166,17 @@
               <item name="Flashcards-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flashcards-project" type="462c0819:PsiDirectoryNode" />
               <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flashcards-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flashcards-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flashcards-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flashcards-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flashcards-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flashcards-project" type="462c0819:PsiDirectoryNode" />
+              <item name="flaskr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flashcards-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flashcards-project" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,17 +261,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1163" y="24" width="1097" height="1056" extended-state="4" />
+    <frame x="173" y="60" width="1097" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322699" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2588879" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -370,10 +371,6 @@
     <entry file="file://$PROJECT_DIR$/app.py" />
     <entry file="file://$PROJECT_DIR$/project/app.py" />
     <entry file="file://$PROJECT_DIR$/run.py" />
-    <entry file="file://$PROJECT_DIR$/app.py" />
-    <entry file="file://$PROJECT_DIR$/flaskr/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1575814799/_sqlite3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -396,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flashcards/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -417,6 +407,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Flashcards/db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -424,13 +434,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flaskr/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Flashcards/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="449">
+          <caret line="84" column="44" selection-start-line="84" selection-start-column="44" selection-end-line="84" selection-end-column="44" />
         </state>
       </provider>
     </entry>
