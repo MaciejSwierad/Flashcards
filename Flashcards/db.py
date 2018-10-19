@@ -3,8 +3,8 @@ import sqlite3
 with sqlite3.connect("FLASHCARDSAPP.db") as connection:
 
     cursor = connection.cursor()
-    cursor.execute("DROP TABLE users")
-    cursor.execute("DROP TABLE flashcards")
+    #cursor.execute("DROP TABLE users")
+    #cursor.execute("DROP TABLE flashcards")
 
     cursor.execute("""CREATE TABLE IF NOT EXISTS users
       (id INTEGER PRIMARY KEY,
